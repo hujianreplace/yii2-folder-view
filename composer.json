@@ -1,0 +1,33 @@
+{
+    "name": "coldfox/yii2-folder-view",
+    "type": "library",
+    "description": "foler view for yii2",
+    "keywords": ["foler view","yii2"],
+    "homepage": "http://mm.onokumus.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "火狐狸"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "onokumus/metismenu": "dev-master",
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "rmrevin/yii2-fontawesome": "~2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "coldfox\\FolderView\\": ""
+        }
+    },
+    "extra": {
+		"branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
